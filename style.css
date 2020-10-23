@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.outter-frame {
+    height: 100%;
+    width: 100%;
+    background: rgb(34, 34, 34);
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.frame {
+    height: 32rem;
+    width: 25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgb(255, 255, 255);
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.p-x{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.header{
+    padding-bottom: 0.5rem;
+}
+.image{
+    height: 60%;
+    width: inherit;
+}
+
+.button-r{
+    margin-left: auto;
+}
+.info{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.text{
+    margin-bottom: 1rem;  
+    margin-top: 0;  
+}
